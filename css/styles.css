@@ -1,0 +1,67 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	width: 75%;
+	margin: 0 auto;
+}
+
+.title {
+	color: #1049CA;
+	text-align: center;
+	margin: 15px 0 15px 0;
+}
+
+.link {
+	color: #D2D2D2;
+	text-decoration: none;
+}
+
+.data {
+	display: flex;
+}
+
+.table {
+	border-collapse: collapse;
+	width: 100%;	
+}
+
+.table th, .table td {
+	padding: 5px;
+	border: 1px solid #D2D2D2;
+} 
+
+.table th {
+	text-align: left;
+	background-color: #1049CA;
+	color: #FFFFFF;
+}
+
+.table tr:nth-child(even){
+	background-color: #ECECEC;
+}
+
+.table tr:hover {
+	background-color: #D2D2D2;
+}
+
+.pokemon-information {
+	margin-left: 15px;
+	width: 50%;
+}
+
+hr {
+	margin: 15px 0 15px 0;
+	border: 1px solid;
+}
+
+.button {
+	border-radius: 10px;
+	padding: 5px;
+}
+
+#information {
+	text-align: center;
+}
