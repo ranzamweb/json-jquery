@@ -28,9 +28,9 @@ $(function() {
 				var information = $('#information');
 				var string = ''
 				information.html(''); // Cargar nuevo Pokemon
-				string += '<h2>Pokemon = <small>' + data.name.toUpperCase()  + '</small></h2>';
-	    		string += '<h3>Peso</h3><br><p>' + data.weight + '</p><br>';
-	    		console.log(data.weight);
+				string += '<p>Pokemon = <b>' + data.name.toUpperCase()  + '</b><p>';
+	    		string += '<p>Peso</p><p>' + data.weight + '</p>';
+	    		string += '<p>Imagen</p><img src="' + data.sprites.back_default + '" height="96" width="96">';
 	 			information.html(string);
 	  		})
 	  		.fail(function(jqxhr, textStatus, error) {
